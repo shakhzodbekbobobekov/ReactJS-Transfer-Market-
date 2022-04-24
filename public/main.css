@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(107, 107, 211);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media ( min-width: 0 ) and ( max-width: 550px ) { 
+    .container {
+        min-width: 100%;
+    }
+    
+    .m-2 {
+        margin: 2px;
+        padding: 2px 4px;
+        font-size: 14px;
+    }
+
+    .handleTable {
+        font-size: 12px !important;
+    }
+
+    .removeBtn {
+        font-size: 10px !important;
+        margin: 0;
+        padding: 2px 4px;
+    }
+
+    /* !Card */
+    h5{
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+
+    .col-5 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .col-2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-body {
+        padding: 0.5rem;
+    }
+
+    .variable {
+        font-size: 10px;
+    }
+
+    .card-footer {
+        margin: 0;
+        padding: 5px 7px;
+    }
+
+     .card-footer  button{
+        padding: 5px;
+        margin: 0;
+        font-size: 12px;
+
+    }
+
+    .btn-group button {
+        font-size: 10px;
+        padding: 7px;
+    }
+    
+}
+
